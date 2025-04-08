@@ -5,7 +5,7 @@
 ----------------------
 -- Creating schemas --
 ----------------------
-
+SET search_path TO mimiciv;
 DROP SCHEMA IF EXISTS mimic_core CASCADE;
 CREATE SCHEMA mimic_core;
 DROP SCHEMA IF EXISTS mimic_hosp CASCADE;
